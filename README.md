@@ -1,10 +1,10 @@
 # Face detection app
-## Các tính năng cần có:
-#### Register khuôn mặt
-#### Nhận diện khuôn mặt
+
+#### 1. Register khuôn mặt
+#### 2. Nhận diện khuôn mặt
       - Face Detection
       - Face Aligment
       - Face Embedding
       - Face Search
       - Liveness Detection (chống giả mạo) (optional)
-#### Push thông báo thời gian xác nhận khuôn mặt
+#### 3. Push thông báo thời gian xác nhận khuôn mặt
