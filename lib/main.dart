@@ -1,3 +1,4 @@
+import 'package:face_detection_app/DetectFaceScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'LoginScreen.dart';
@@ -17,6 +18,10 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: Login(),
+      routes: {
+        '/DetectFaceScreen': (context) => new DetectFaceScreen(),
+        '/Login': (context) => new Login()
+      },
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:face_detection_app/DetectFaceScreen.dart';
 import 'package:face_detection_app/RegisterFaceScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -72,8 +73,9 @@ class _LoginState extends State<Login> {
             child: FlatButton(
               child: Text('Login',style: TextStyle(color: Colors.white),),
               onPressed: (){
-                if (_txtUsername.text == 'admin' && _txtPassword.text == '123456') {
-                  Navigator.push(context, new MaterialPageRoute(builder: (context) => new RegisterFaceScreen()));
+                if (_txtUsername.text == 'admin' && _txtPassword.text == '123') {
+                  //Navigator.push(context, new MaterialPageRoute(builder: (context) => new DetectFaceScreen()));
+                  Navigator.pushReplacementNamed(context, '/DetectFaceScreen');
                 }
                 else print('login failed');
               },

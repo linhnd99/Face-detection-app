@@ -24,6 +24,10 @@
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>cam</string>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>test</string>
+	<key>NSSystemAdministrationUsageDescription</key>
+	<string>test</string>
 	<key>NSCameraUsageDescription</key>
 	<string>cam</string>
 	<key>NSMicrophoneUsageDescription</key>
