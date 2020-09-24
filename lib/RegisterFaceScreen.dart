@@ -28,7 +28,6 @@ class _RegisterFaceScreenState extends State<RegisterFaceScreen> {
         title: Text('Register face'),
         actions: [
           FlatButton(
-            //child: Text('Save',style: TextStyle(color: Colors.white, fontSize: 16),),
             child: Icon(Icons.save, color: Colors.white,),
             onPressed: (){
               showDialog(context: context, builder: (context){

@@ -132,7 +132,7 @@ class DetectFaceScreenState extends State<DetectFaceScreen> {
                     await initializeControllerFuture;
 
                     if (mounted) setState(() {
-
+ 
                     });
                   });
                 },
