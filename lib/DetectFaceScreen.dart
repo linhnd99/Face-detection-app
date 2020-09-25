@@ -51,7 +51,10 @@ class DetectFaceScreenState extends State<DetectFaceScreen> {
 
     });
 
-
+    Future.doWhile((){
+      print(':))');
+      return true;
+    });
   }
 
   @override

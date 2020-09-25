@@ -1,6 +1,6 @@
-import 'package:face_detection_app/DetectFaceScreen.dart';
-import 'package:face_detection_app/RegisterFaceScreen.dart';
+
 import 'package:flutter/material.dart';
+import 'package:tflite/tflite.dart';
 
 
 class Login extends StatefulWidget {
@@ -19,6 +19,17 @@ class _LoginState extends State<Login> {
     _txtPassword = new TextEditingController();
     _txtUsername = new TextEditingController();
 
+    //LoadModel();
+  }
+
+  LoadModel() async {
+    var res = await Tflite.loadModel(
+        model: "assets/MobileFaceNet.tflite",
+        numThreads: 1, // defaults to 1
+        isAsset: true, // defaults to true, set to false to load resources outside assets
+        useGpuDelegate: false // defaults to false, set to true to use GPU delegate
+    );
+    print('res load model: '+res.toString());
   }
 
   @override

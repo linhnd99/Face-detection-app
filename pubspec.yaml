@@ -32,6 +32,7 @@ dependencies:
   camera: any
   percent_indicator: any
   flutter_ringtone_player: any
+  tflite: any
 
 dev_dependencies:
   flutter_test:

@@ -52,3 +52,7 @@ android {
 flutter {
     source '../..'
 }
+aaptOptions {
+    noCompress 'tflite'
+    noCompress 'lite'
+}

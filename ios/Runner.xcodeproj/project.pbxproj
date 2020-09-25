@@ -10,6 +10,15 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		1BB0CC51376F5C08DFAFD848 /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D369CAB9A45D4827EFE2FAE7 /* libPods-Runner.a */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		567513A8251D048B008A94BC /* MobileFaceNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 567513A7251D048B008A94BC /* MobileFaceNet.m */; };
+		567513AD251D05F0008A94BC /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 567513AB251D05F0008A94BC /* Tools.m */; };
+		567513AF251D094A008A94BC /* MobileFaceNet.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 567513AE251D094A008A94BC /* MobileFaceNet.tflite */; };
+		567513B7251D186D008A94BC /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 567513B3251D186D008A94BC /* image1.png */; };
+		567513B8251D186D008A94BC /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 567513B4251D186D008A94BC /* image3.png */; };
+		567513B9251D186D008A94BC /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 567513B5251D186D008A94BC /* image2.png */; };
+		567513BA251D186D008A94BC /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 567513B6251D186D008A94BC /* image4.png */; };
+		567513BC251D190A008A94BC /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 567513BB251D190A008A94BC /* image5.png */; };
+		567513BE251D199E008A94BC /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = 567513BD251D199E008A94BC /* image6.png */; };
 		978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */; };
 		97C146F31CF9000F007C117D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C146F21CF9000F007C117D /* main.m */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -35,6 +44,17 @@
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		2FCAA72638B812D2ED785174 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		567513A6251D048B008A94BC /* MobileFaceNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileFaceNet.h; sourceTree = "<group>"; };
+		567513A7251D048B008A94BC /* MobileFaceNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileFaceNet.m; sourceTree = "<group>"; };
+		567513AB251D05F0008A94BC /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		567513AC251D05F0008A94BC /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		567513AE251D094A008A94BC /* MobileFaceNet.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MobileFaceNet.tflite; sourceTree = "<group>"; };
+		567513B3251D186D008A94BC /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		567513B4251D186D008A94BC /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		567513B5251D186D008A94BC /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		567513B6251D186D008A94BC /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		567513BB251D190A008A94BC /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		567513BD251D199E008A94BC /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image6.png; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		7AFFD8ED1D35381100E5BB4D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +83,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		567513A5251D045D008A94BC /* MobileFaceNet */ = {
+			isa = PBXGroup;
+			children = (
+				567513AE251D094A008A94BC /* MobileFaceNet.tflite */,
+				567513A6251D048B008A94BC /* MobileFaceNet.h */,
+				567513A7251D048B008A94BC /* MobileFaceNet.m */,
+			);
+			name = MobileFaceNet;
+			sourceTree = "<group>";
+		};
+		567513AA251D05D9008A94BC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				567513AC251D05F0008A94BC /* Tools.h */,
+				567513AB251D05F0008A94BC /* Tools.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		567513B2251D1851008A94BC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				567513BD251D199E008A94BC /* image6.png */,
+				567513BB251D190A008A94BC /* image5.png */,
+				567513B3251D186D008A94BC /* image1.png */,
+				567513B5251D186D008A94BC /* image2.png */,
+				567513B4251D186D008A94BC /* image3.png */,
+				567513B6251D186D008A94BC /* image4.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		78F530947777F316B5C80335 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +158,9 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				567513B2251D1851008A94BC /* Image */,
+				567513AA251D05D9008A94BC /* Utils */,
+				567513A5251D045D008A94BC /* MobileFaceNet */,
 				7AFFD8ED1D35381100E5BB4D /* AppDelegate.h */,
 				7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
@@ -197,9 +252,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567513BA251D186D008A94BC /* image4.png in Resources */,
+				567513BC251D190A008A94BC /* image5.png in Resources */,
+				567513BE251D199E008A94BC /* image6.png in Resources */,
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
+				567513AF251D094A008A94BC /* MobileFaceNet.tflite in Resources */,
+				567513B9251D186D008A94BC /* image2.png in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
+				567513B7251D186D008A94BC /* image1.png in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
+				567513B8251D186D008A94BC /* image3.png in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +343,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567513A8251D048B008A94BC /* MobileFaceNet.m in Sources */,
+				567513AD251D05F0008A94BC /* Tools.m in Sources */,
 				978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */,
 				97C146F31CF9000F007C117D /* main.m in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
